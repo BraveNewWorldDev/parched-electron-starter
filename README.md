@@ -37,8 +37,8 @@ Usage
 
 ```bash
 # Clone the main repository
-git clone https://github.com/mikew/parched-electron.git
-cd parched-electron/
+git clone https://github.com/BraveNewWorldDev/parched-electron-starter.git
+cd parched-electron-starter/
 npm install
 bower install
 
