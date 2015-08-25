@@ -1,0 +1,41 @@
+{
+  "name": "parched-example-app",
+  "version": "1.0.0",
+  "description": "An Electron desktop application using parched-tasks-webapp",
+  "main": "index.js",
+  "dependencies": {
+    "electron-packager": "^5.0.2",
+    "react": "^0.13.3",
+    "electron-connect": "^0.3.0",
+    "electron-prebuilt": "^0.31.0",
+    "gulp": "^3.9.0",
+    "parched": "^0.3.0",
+    "parched-babel": "^0.1.1",
+    "parched-coffee-script": "^0.1.1",
+    "parched-jade": "^0.1.2",
+    "parched-minify-css": "^0.1.1",
+    "parched-sass": "^0.1.1",
+    "parched-svg2png": "^0.1.2",
+    "parched-tasks-webapp": "^0.2.4",
+    "parched-uglify": "^0.1.1",
+    "parched-webfont": "^0.1.4",
+    "jasmine-core": "^2.1.2",
+    "karma": "^0.13.9",
+    "karma-browserify": "^4.3.0",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-coffee-preprocessor": "^0.3.0",
+    "karma-jasmine": "^0.3.1"
+  },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "keywords": [
+    "parched",
+    "electron",
+    "desktopapp"
+  ],
+  "author": "Mike Wyatt <wyatt.mike@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+  }
+}

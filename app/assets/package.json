@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "productName": "App",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "main": "electron-main.js",
+  "repository": "user/repo",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+  },
+  "keywords": [
+    "electron-app"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}

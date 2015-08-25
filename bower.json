@@ -1,0 +1,31 @@
+{
+  "name": "parched-example-app",
+  "version": "0.0.0",
+  "authors": [
+    "Mike Wyatt <wyatt.mike@gmail.com>"
+  ],
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "bourbon": "3.2.3"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": []
+    },
+    "jquery": {
+      "main": []
+    }
+  }
+}
