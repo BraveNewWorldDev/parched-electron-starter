@@ -9,19 +9,14 @@ Features
 
 - Bower
 - React
-- CoffeeScript (in `vendor/scripts/` and browserify)
-- Jade (in `app/views/`, `vendor/views/` and browserify)
 - Sass (in `app/styles/` and `vendor/styles/`)
 - Ordering of any concat'd files via before and after properties
-- Builds a webfont based on .svg files in `app/assets/glyphs/`
-- Build both a retina and non-retina spritemap based on .svg files in `app/assets/sprites/`
 - Minify javascript in production
 - Minify css in production
 - Error hard in production
-- Use browserSync in development
+- Use hot module loading in development
 - Stay out of your way
 - Allow you to intervene at pretty much any point
-- Karma + Jasmine for tests
 
 Since it is built on parched and parched-tasks-webapp, let's imagine you
 prefer Less to Sass and would like to set it up:
