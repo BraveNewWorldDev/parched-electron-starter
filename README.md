@@ -38,13 +38,13 @@ npm install
 bower install
 
 # Run clean task
-gulp parched-clean
+./node_modules/.bin/gulp parched-clean
 
 # Run build task in "production"
 # aka minify, hard errors
-NODE_ENV=production gulp parched-build
+NODE_ENV=production ./node_modules/.bin/gulp parched-build
 
 # Clean, build, and watch
 # This triggers electron-connect
-gulp parched-clean && gulp parched-watch
+./node_modules/.bin/gulp parched-clean && ./node_modules/.bin/gulp parched-watch
 ```
